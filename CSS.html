@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"><!--47:29-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet" />
+      <link rel="stylesheet" href="CSS.css">
+      <script src="index.js"></script>
+      <!-- <script src="https://accounts.google.com/gsi/client" async defer></script> -->
+      <!-- <script src="https://apis.google.com/js/platform.js" async defer></script>
+      <meta name="google-signin-client_id" content="193507930187-0t4js4754ukud3jn9jc49jnufhvgg0mi.apps.googleusercontent.com"> -->
+      
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <nav>
+        <div class="top">
+          <div class="logo">
+            <img src="/R.png">
+            <h2>Rural<span class="Safe"> Health</span></h2>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp">close</span>
+          </div>
+        </div>  
+          <div class="sidebar">
+            <ul> 
+              <li><a href="/dashboard" class="active"><span class="material-icons-sharp">dashboard</span><h3>Dashboard</h3></a></li>
+              <li><a href="User"><span class="material-icons-sharp">person_add</span><h3>Patient</h3></a></li>
+              <li><a href="Doctor"><span class="material-icons-sharp">person_outline</span><h3>Doctor</h3></a></li>
+              <li><a href="Updated"><span class="material-icons-sharp">update</span><h3>Update</h3></a></li>
+              <li><a href="Delete"><span class="material-icons-sharp">delete</span><h3>Delete</h3></a></li>
+              <li><a href="Settings"><span class="material-icons-sharp">settings</span><h3>Settings</h3></a></li>
+              <li><a href="Help"><span class="material-icons-sharp">help</span><h3>Help</h3></a></li>
+              <li><a href="logout"><span class="material-icons-sharp">logout</span><h3>Log out</h3></a></li>
+            </ul>
+          </div>
+      </nav>
+          <!-- Main Page-->
+          <main>
+            <div class="search">
+              <label>
+                <a href=""><span class="material-icons-sharp">search</span></a>
+                <input type="text" placeholder="Find">
+              </label>
+            </div>
+            <div class="containers">
+              <table>
+                <thead>
+                  <tr>
+                      <th>Patient_ID</th>
+                      <th>Name</th>
+                      <th>Contact No.</th>
+                      <th>Address</th>
+                      <th>Civil_Status</th>
+                      <th>Birthdate</th>
+                      <th>Sex</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>12345679</td>
+                    <td>keth mark berou</td>
+                    <td>09982595182</td>
+                    <td>Pandayan, canhaway, guindulman, bohol</td>
+                    <td>Married</td>
+                    <td>5-23-003</td>
+                    <td>M</td>
+                  </tr>
+                </tbody>
+              </table>
+              <a href="#">See all</a>
+            </div>
+          </main>
+    </div>
+  </body>
+</html>
